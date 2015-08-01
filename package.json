@@ -4,7 +4,7 @@
   "description": "binary-to-emoji encoding",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/finnp/emoji-armor/issues"
   },
-  "homepage": "https://github.com/finnp/emoji-armor#readme"
+  "homepage": "https://github.com/finnp/emoji-armor#readme",
+  "dependencies": {
+    "base-emoji": "^2.0.1",
+    "pumpify": "^1.3.3",
+    "split": "^1.0.0",
+    "through2": "^2.0.0"
+  }
 }
